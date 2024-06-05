@@ -1,0 +1,89 @@
+/* Базові стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px;
+}
+
+.product a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.photoIMG {
+    width:300px !important; /* змінюємо ширину */
+    height: 200px !important; /* змінюємо висоту (можна не задавати, якщо вона не фіксована) */
+    border-radius: 8px;
+}
+
+table, td{
+    border: 2px solid rgb(0, 0, 0);
+}
+body{
+    font-family: Arial
+}
